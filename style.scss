@@ -1,0 +1,51 @@
+@import url(https://fonts.googleapis.com/css?family=Poiret+One&subset=latin,latin-ext,cyrillic);
+
+body {
+  background: url('http://res.cloudinary.com/dnkqgvjbd/image/upload/v1453146177/fog2_kg7f86.gif') no-repeat center center fixed;;
+  background-size: cover;
+}
+.container {
+  width: 400px;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+  margin: 100px auto;
+  padding: 20px;
+  font-family: 'Poiret One';
+  font-size: 20px;
+}
+#city {
+  font-size: 45px;
+}
+#region, #cond {
+  font-weight: bold;
+}
+#date {
+  text-align: right;
+  margin-top: 20px;
+}
+.change-temp > div {
+  display: inline-block;
+}
+.icon-set, .change-temp {
+  display: inline-block;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+.icon-set {
+  margin-right: 20px;
+}
+
+#icon {
+  text-align: center;
+}
+#temp {
+  font-size: 100px;
+}
+
+#cel, #far {
+  vertical-align: top;
+  cursor: pointer;
+}
+.main {
+  text-align: center;
+}
